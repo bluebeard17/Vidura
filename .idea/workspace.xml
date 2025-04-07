@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb970bc7-d7bd-4a4e-8cc6-8fba49409c9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;urmil-p_myntra&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:bluebeard17/Vidura.git&quot;,
+    &quot;accountId&quot;: &quot;c30a31b1-835c-44c8-8779-af6bc64dc3fb&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="explicitlyEnabledProfiles" value="native,repos,nativeTest" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2vMXlYoFZCi7PjCqu0zMJcMwiDo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.ViduraApplication.executor": "Run",
+    "Maven.vidura [clean].executor": "Run",
+    "Maven.vidura [compile].executor": "Run",
+    "Maven.vidura [install,-U].executor": "Run",
+    "Maven.vidura [install].executor": "Run",
+    "Maven.vidura [org.openrewrite.maven:rewrite-maven-plugin:6.4.0:discover].executor": "Run",
+    "Maven.vidura [org.openrewrite.maven:rewrite-maven-plugin:6.4.0:dryRun].executor": "Run",
+    "Maven.vidura [org.openrewrite.maven:rewrite-maven-plugin:6.4.0:run...].executor": "Run",
+    "Maven.vidura [org.openrewrite.maven:rewrite-maven-plugin:6.4.0:run].executor": "Run",
+    "Maven.vidura [package].executor": "Run",
+    "Maven.vidura [rewrite:run,--force].executor": "Run",
+    "Maven.vidura [rewrite:run,-U].executor": "Run",
+    "Maven.vidura [rewrite:run,-f,pom.xml].executor": "Run",
+    "Maven.vidura [rewrite:run,-f].executor": "Run",
+    "Maven.vidura [rewrite:run].executor": "Run",
+    "Maven.vidura [test].executor": "Run",
+    "Maven.vidura [validate].executor": "Run",
+    "Maven.vidura [verify].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ViduraApplication.executor": "Run",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/urmil.p/Desktop/Falcon/Vidura",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="/private/var/folders/nv/4mh_j_592x7c0lx6sy47rbwr0000gp/T/qodana_output/qodana.sarif.json" reportGuid="53ee86a7-2b20-4012-8020-f26d8f240ec9" reportId="Vidura/qodana/2025-04-07" />
+    </option>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn rewrite:run -f" />
+      <command value="mvn rewrite:run -f pom.xml" />
+      <command value="mvn rewrite:run --force" />
+      <command value="mvn rewrite:run -U" />
+      <command value="mvn org.openrewrite.maven:rewrite-maven-plugin:6.4.0:run --settings ./settings.xml -U -Dmaven.repo.remote=https://repo.maven.apache.org/maven2" />
+      <command value="mvn install -U" />
+      <command value="mvn rewrite:run" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Vidura" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Vidura" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ViduraApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="vidura" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.falcon.vidura.ViduraApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb970bc7-d7bd-4a4e-8cc6-8fba49409c9e" name="Changes" comment="" />
+      <created>1743956067510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743956067510</updated>
+      <workItem from="1743956068977" duration="2066000" />
+      <workItem from="1744001723724" duration="8188000" />
+      <workItem from="1744009952639" duration="2065000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

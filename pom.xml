@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.5.0-SNAPSHOT</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.falcon.vidura</groupId>
+	<artifactId>vidura</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>vidura</name>
+	<description>Falcon</description>
+	<url/>
+	<licenses>
+		<license/>
+	</licenses>
+	<developers>
+		<developer/>
+	</developers>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+	</scm>
+	<properties>
+		<java.version>24</java.version>
+		<maven.compiler.source>24</maven.compiler.source>
+		<maven.compiler.target>24</maven.compiler.target>
+		<rewrite.version>7.37.0</rewrite.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.openrewrite.maven</groupId>
+				<artifactId>rewrite-maven-plugin</artifactId>
+				<version>6.4.0</version>
+				<configuration>
+					<activeRecipes>
+						<recipe>org.openrewrite.java.format.AutoFormat</recipe>
+						<!-- Spring Framework Best Practices -->
+						<recipe>org.openrewrite.java.spring.NoRequestMappingAnnotation</recipe>
+						<recipe>org.openrewrite.java.spring.ImplicitWebAnnotationNames</recipe>
+						<recipe>org.openrewrite.java.spring.NoAutowiredOnConstructor</recipe>
+						<!-- Java Code Quality -->
+						<recipe>org.openrewrite.staticanalysis.CodeCleanup</recipe>
+						<!-- Security Improvements -->
+						<recipe>org.openrewrite.java.security.SecureTempFileCreation</recipe>
+						<recipe>org.openrewrite.java.security.ZipSlip</recipe>
+						<recipe>org.openrewrite.java.security.JavaSecurityBestPractices</recipe>
+						<!-- Testing -->
+						<recipe>org.openrewrite.java.testing.junit5.JUnit5BestPractices</recipe>
+						<!-- Dependency Management -->
+						<recipe>org.openrewrite.maven.RemoveRedundantDependencyVersions</recipe>
+					</activeRecipes>
+				</configuration>
+				<dependencies>
+					<!-- Core modules -->
+					<dependency>
+						<groupId>org.openrewrite</groupId>
+						<artifactId>rewrite-java</artifactId>
+						<version>8.17.1</version>
+					</dependency>
+					<!-- Spring recipes -->
+					<dependency>
+						<groupId>org.openrewrite.recipe</groupId>
+						<artifactId>rewrite-spring</artifactId>
+						<version>5.7.0</version>
+					</dependency>
+					<!-- Security recipes -->
+					<dependency>
+						<groupId>org.openrewrite.recipe</groupId>
+						<artifactId>rewrite-java-security</artifactId>
+						<version>2.5.2</version>
+					</dependency>
+					<!-- Testing recipes -->
+					<dependency>
+						<groupId>org.openrewrite.recipe</groupId>
+						<artifactId>rewrite-testing-frameworks</artifactId>
+						<version>2.4.0</version>
+					</dependency>
+					<!-- Static Analysis recipes -->
+					<dependency>
+						<groupId>org.openrewrite.recipe</groupId>
+						<artifactId>rewrite-static-analysis</artifactId>
+						<version>2.5.1</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+		</plugins>
+	</build>
+	<repositories>
+		<repository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>spring-snapshots</id>
+			<name>Spring Snapshots</name>
+			<url>https://repo.spring.io/snapshot</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</repository>
+		<repository>
+			<id>central</id>
+			<name>Maven Central</name>
+			<url>https://repo.maven.apache.org/maven2</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+		<pluginRepository>
+			<id>spring-snapshots</id>
+			<name>Spring Snapshots</name>
+			<url>https://repo.spring.io/snapshot</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</pluginRepository>
+		<pluginRepository>
+			<id>central</id>
+			<name>Maven Central</name>
+			<url>https://repo.maven.apache.org/maven2</url>
+		</pluginRepository>
+	</pluginRepositories>
+
+</project>
